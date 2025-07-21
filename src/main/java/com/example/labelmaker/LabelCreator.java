@@ -43,7 +43,7 @@ public class LabelCreator {
         FileWriter indexWriter =  new FileWriter(output + "\\index.html");
         indexWriter.write("<!DOCTYPE html><html lang=\"en\"><head><meta charset=\"utf-8\" /><style>div {text-align: center;} li {display: block;width:" +
                 "20%%;float: left;} button {padding:5px 10px; color:#000; border-radius:12px; background-color:#91ab66;}</style><title>Labels" +
-                "</title></head><body><a href=\"https://github.com/JSneeky/Label\"><button style=\"position:10px 10px;\">Github</button>" +
+                "</title></head><body><a href=\"https://github.com/JSneeky/LabelMaker\"><button style=\"position:10px 10px;\">Github</button>" +
                 "</a><div><h1>Labels</h1></div><hr width=\"100%%;\" color=\"black\" size=\"2\"><ul>");
         return indexWriter;
     }
